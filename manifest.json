@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+    "name": "Easy Find NewTab",
+    "description": "Find things the simple way",
+    "version": "1.0",
+    "permissions" : ["management"],
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    }
+ }
